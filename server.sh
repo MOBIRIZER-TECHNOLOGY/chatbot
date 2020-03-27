@@ -1,3 +1,3 @@
 #!/bin/sh
 
-rasa run --enable-api --port $PORT
+rasa run -m models --enable-api --cors "*" --debug --port $PORT
